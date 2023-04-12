@@ -1,0 +1,10 @@
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\bin\Debug\OnTap.exe.config
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\bin\Debug\OnTap.exe
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\bin\Debug\OnTap.pdb
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.csprojResolveAssemblyReference.cache
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.FormDangNhap.resources
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.Properties.Resources.resources
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.csproj.GenerateResource.Cache
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.exe
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.pdb
+c:\users\nk203\documents\visual studio 2012\Projects\OnTap\OnTap\obj\Debug\OnTap.FormChuongTrinh.resources
