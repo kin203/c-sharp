@@ -1,0 +1,12 @@
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\bin\Debug\Baitap2.exe.config
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\bin\Debug\Baitap2.exe
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\bin\Debug\Baitap2.pdb
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.csprojResolveAssemblyReference.cache
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.DangNhap.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.Properties.Resources.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.csproj.GenerateResource.Cache
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.exe
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.pdb
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.HeThong.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.DanhMucNhanVien.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\Baitap2\Baitap2\obj\Debug\Baitap2.NhanVien.resources
