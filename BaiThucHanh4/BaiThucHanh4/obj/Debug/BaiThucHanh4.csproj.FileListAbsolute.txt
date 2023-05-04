@@ -1,0 +1,13 @@
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\bin\Debug\BaiThucHanh4.exe.config
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\bin\Debug\BaiThucHanh4.exe
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\bin\Debug\BaiThucHanh4.pdb
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.csprojResolveAssemblyReference.cache
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.Form1.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.Properties.Resources.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.csproj.GenerateResource.Cache
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.exe
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.pdb
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.HeThong.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.LoaiPhong.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.LichDangKy.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.ThongKe.resources
