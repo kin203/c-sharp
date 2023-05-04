@@ -105,8 +105,8 @@ namespace BaiThucHanh4
             if (r >= 0) {
                 txtmapm.Text = dgvLichDK.Rows[r].Cells[0].Value.ToString();
                 txtmagv.Text = dgvLichDK.Rows[r].Cells[1].Value.ToString();
-                txtbatdau.Text= dgvLichDK.Rows[r].Cells[2].Value.ToString();
-                txtketthuc.Text= dgvLichDK.Rows[r].Cells[3].Value.ToString();
+                txtbatdau.Text = Convert.ToDateTime(dgvLichDK.Rows[r].Cells[2].Value).ToShortDateString();
+                txtketthuc.Text= Convert.ToDateTime(dgvLichDK.Rows[r].Cells[3].Value).ToShortDateString();
                 txtnamhoc.Text = dgvLichDK.Rows[r].Cells[4].Value.ToString();
             }
         }
