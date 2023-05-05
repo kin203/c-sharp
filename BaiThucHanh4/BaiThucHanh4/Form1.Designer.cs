@@ -35,6 +35,8 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtid = new System.Windows.Forms.TextBox();
             this.txtpass = new System.Windows.Forms.TextBox();
+            this.lbdangky = new System.Windows.Forms.Label();
+            this.lbdk = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -66,16 +68,17 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(183, 184);
+            this.btnExit.Location = new System.Drawing.Point(178, 163);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Thoat";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(33, 184);
+            this.btnLogin.Location = new System.Drawing.Point(31, 163);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 3;
@@ -97,12 +100,33 @@
             this.txtpass.Size = new System.Drawing.Size(158, 20);
             this.txtpass.TabIndex = 2;
             // 
+            // lbdangky
+            // 
+            this.lbdangky.AutoSize = true;
+            this.lbdangky.Location = new System.Drawing.Point(41, 223);
+            this.lbdangky.Name = "lbdangky";
+            this.lbdangky.Size = new System.Drawing.Size(109, 13);
+            this.lbdangky.TabIndex = 4;
+            this.lbdangky.Text = "Chua co tai khoan ??";
+            // 
+            // lbdk
+            // 
+            this.lbdk.AutoSize = true;
+            this.lbdk.Location = new System.Drawing.Point(161, 223);
+            this.lbdk.Name = "lbdk";
+            this.lbdk.Size = new System.Drawing.Size(48, 13);
+            this.lbdk.TabIndex = 5;
+            this.lbdk.Text = "Dang Ky";
+            this.lbdk.Click += new System.EventHandler(this.lbdk_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 258);
+            this.Controls.Add(this.lbdk);
+            this.Controls.Add(this.lbdangky);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtid);
             this.Controls.Add(this.btnLogin);
@@ -126,6 +150,8 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.Label lbdangky;
+        private System.Windows.Forms.Label lbdk;
     }
 }
 

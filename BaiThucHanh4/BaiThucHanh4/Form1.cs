@@ -30,8 +30,27 @@ namespace BaiThucHanh4
                 MessageBox.Show("Dang Nhap Thanh Cong");
                 HeThong ht = new HeThong();
                 ht.Show();
+                this.Hide();
             }
             else { MessageBox.Show("Dang Nhap 0 Thanh Cong"); }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lbquenmk_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbdk_Click(object sender, EventArgs e)
+        {
+            Register re = new Register();
+            re.Show();
+            this.Hide();
+
         }
     }
 }

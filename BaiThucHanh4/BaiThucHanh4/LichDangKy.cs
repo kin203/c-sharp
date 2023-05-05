@@ -19,6 +19,10 @@ namespace BaiThucHanh4
             dgvLichDK.DataSource=ds.Tables[0];
         }
         public void clearText() {
+            btnThem.Enabled = true;
+            btnSua.Enabled = false;
+            btnXoa.Enabled = false;
+            txtmapm.Enabled = true;
             txtmapm.Clear();
             txtmagv.Clear();
             txtbatdau.Clear();
@@ -88,15 +92,16 @@ namespace BaiThucHanh4
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            string query = string.Format("select * from LichDangKy where MaPM = '{0}' ",
-            txtmapm.Text
-            );
+            string query = string.Format("select * from LichDangKy where MaPM like '%{0}%' ", txtSearch.Text);
             DataSet ds = kn.LayDuLieu(query);
-            if (ds.Tables[0].Rows.Count >=1)
+            if (ds.Tables[0].Rows.Count >0)
             {
                 dgvLichDK.DataSource = ds.Tables[0];
             }
-            else { MessageBox.Show("0 co du lieu"); }
+            else { 
+                MessageBox.Show("Khong co du lieu !!");
+                dgvLichDK.DataSource = ds.Tables[0];
+            }
         }
 
         private void dgvLichDK_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -108,7 +113,18 @@ namespace BaiThucHanh4
                 txtbatdau.Text = Convert.ToDateTime(dgvLichDK.Rows[r].Cells[2].Value).ToShortDateString();
                 txtketthuc.Text= Convert.ToDateTime(dgvLichDK.Rows[r].Cells[3].Value).ToShortDateString();
                 txtnamhoc.Text = dgvLichDK.Rows[r].Cells[4].Value.ToString();
+                txtmapm.Enabled = false;
+                btnThem.Enabled = false;
+                btnSua.Enabled = true;
+                btnXoa.Enabled = true;
             }
+        }
+
+        private void txtmapm_TextChanged(object sender, EventArgs e)
+        {
+            btnXoa.Enabled = true;
+
+
         }
 
     }

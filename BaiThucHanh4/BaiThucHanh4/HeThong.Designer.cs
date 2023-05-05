@@ -59,21 +59,21 @@
             // loaiPhongToolStripMenuItem
             // 
             this.loaiPhongToolStripMenuItem.Name = "loaiPhongToolStripMenuItem";
-            this.loaiPhongToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loaiPhongToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.loaiPhongToolStripMenuItem.Text = "Loai Phong";
             this.loaiPhongToolStripMenuItem.Click += new System.EventHandler(this.loaiPhongToolStripMenuItem_Click);
             // 
             // lichDangKyToolStripMenuItem
             // 
             this.lichDangKyToolStripMenuItem.Name = "lichDangKyToolStripMenuItem";
-            this.lichDangKyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lichDangKyToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.lichDangKyToolStripMenuItem.Text = "Lich Dang Ky";
             this.lichDangKyToolStripMenuItem.Click += new System.EventHandler(this.lichDangKyToolStripMenuItem_Click);
             // 
             // thongKeToolStripMenuItem
             // 
             this.thongKeToolStripMenuItem.Name = "thongKeToolStripMenuItem";
-            this.thongKeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.thongKeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.thongKeToolStripMenuItem.Text = "Thong Ke";
             this.thongKeToolStripMenuItem.Click += new System.EventHandler(this.thongKeToolStripMenuItem_Click);
             // 
@@ -87,6 +87,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "HeThong";
             this.Text = "HeThong";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.HeThong_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

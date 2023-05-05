@@ -11,3 +11,4 @@ C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\o
 C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.LoaiPhong.resources
 C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.LichDangKy.resources
 C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.ThongKe.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiThucHanh4\BaiThucHanh4\obj\Debug\BaiThucHanh4.Register.resources

@@ -143,6 +143,7 @@
             this.txtmapm.Name = "txtmapm";
             this.txtmapm.Size = new System.Drawing.Size(162, 20);
             this.txtmapm.TabIndex = 1;
+            this.txtmapm.TextChanged += new System.EventHandler(this.txtmapm_TextChanged);
             // 
             // txtmagv
             // 
@@ -177,6 +178,7 @@
             // 
             // btnXoa
             // 
+            this.btnXoa.Enabled = false;
             this.btnXoa.Location = new System.Drawing.Point(542, 29);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 23);
@@ -187,6 +189,7 @@
             // 
             // btnSua
             // 
+            this.btnSua.Enabled = false;
             this.btnSua.Location = new System.Drawing.Point(443, 65);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 23);
@@ -197,6 +200,7 @@
             // 
             // btnThem
             // 
+            this.btnThem.Enabled = false;
             this.btnThem.Location = new System.Drawing.Point(443, 29);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 23);

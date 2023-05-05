@@ -1,0 +1,13 @@
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\bin\Debug\BaiOnTap3.exe.config
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\bin\Debug\BaiOnTap3.exe
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\bin\Debug\BaiOnTap3.pdb
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.csprojResolveAssemblyReference.cache
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.FormDangNhap.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.Properties.Resources.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.csproj.GenerateResource.Cache
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.exe
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.pdb
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.HeThong.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.Lop.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.Diem.resources
+C:\Users\NK203\Documents\Visual Studio 2012\Projects\BaiOnTap3\BaiOnTap3\obj\Debug\BaiOnTap3.FormBaoCao.resources

@@ -37,5 +37,10 @@ namespace BaiThucHanh4
             tk.MdiParent = this;
             tk.Show();
         }
+
+        private void HeThong_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
