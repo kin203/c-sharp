@@ -136,6 +136,7 @@
             this.txtnamhoc.Name = "txtnamhoc";
             this.txtnamhoc.Size = new System.Drawing.Size(162, 20);
             this.txtnamhoc.TabIndex = 5;
+            this.txtnamhoc.TextChanged += new System.EventHandler(this.txtnamhoc_TextChanged);
             // 
             // txtmapm
             // 
@@ -151,6 +152,7 @@
             this.txtmagv.Name = "txtmagv";
             this.txtmagv.Size = new System.Drawing.Size(162, 20);
             this.txtmagv.TabIndex = 2;
+            this.txtmagv.TextChanged += new System.EventHandler(this.txtmagv_TextChanged);
             // 
             // txtketthuc
             // 
@@ -158,6 +160,7 @@
             this.txtketthuc.Name = "txtketthuc";
             this.txtketthuc.Size = new System.Drawing.Size(162, 20);
             this.txtketthuc.TabIndex = 4;
+            this.txtketthuc.TextChanged += new System.EventHandler(this.txtketthuc_TextChanged);
             // 
             // txtbatdau
             // 
@@ -165,6 +168,7 @@
             this.txtbatdau.Name = "txtbatdau";
             this.txtbatdau.Size = new System.Drawing.Size(162, 20);
             this.txtbatdau.TabIndex = 3;
+            this.txtbatdau.TextChanged += new System.EventHandler(this.txtbatdau_TextChanged);
             // 
             // btnTimKiem
             // 

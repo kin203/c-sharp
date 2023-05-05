@@ -19,7 +19,7 @@ namespace BaiThucHanh4
             dgvLichDK.DataSource=ds.Tables[0];
         }
         public void clearText() {
-            btnThem.Enabled = true;
+            btnThem.Enabled = false;
             btnSua.Enabled = false;
             btnXoa.Enabled = false;
             txtmapm.Enabled = true;
@@ -28,6 +28,12 @@ namespace BaiThucHanh4
             txtbatdau.Clear();
             txtketthuc.Clear();
             txtnamhoc.Clear();
+        }
+        // dùng để kiểm tra xem đã nhập đủ các trường cần thiết chưa !!!!!!!!!!!!!!
+        void kiemtratxt() {
+            btnThem.Enabled = txtmapm.Text.Length > 0 && txtmagv.Text.Length > 0 && txtbatdau.Text.Length > 0 && txtketthuc.Text.Length > 0 && txtnamhoc.Text.Length > 0;
+            btnXoa.Enabled = txtmapm.Text.Length > 0;
+            btnSua.Enabled = txtmapm.Text.Length > 0 && txtmagv.Text.Length > 0 && txtbatdau.Text.Length > 0 && txtketthuc.Text.Length > 0 && txtnamhoc.Text.Length > 0;
         }
         public LichDangKy()
         {
@@ -122,9 +128,28 @@ namespace BaiThucHanh4
 
         private void txtmapm_TextChanged(object sender, EventArgs e)
         {
-            btnXoa.Enabled = true;
 
+            kiemtratxt();
+        }
 
+        private void txtmagv_TextChanged(object sender, EventArgs e)
+        {
+            kiemtratxt();
+        }
+
+        private void txtbatdau_TextChanged(object sender, EventArgs e)
+        {
+            kiemtratxt();
+        }
+
+        private void txtketthuc_TextChanged(object sender, EventArgs e)
+        {
+            kiemtratxt();
+        }
+
+        private void txtnamhoc_TextChanged(object sender, EventArgs e)
+        {
+            kiemtratxt();
         }
 
     }
